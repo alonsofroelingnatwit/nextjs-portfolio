@@ -1,0 +1,25 @@
+.header_header {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #22222271;
+}
+
+.header_list {
+  color: rgb(5, 155, 255);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: large;
+}
+
+.header_list_item {
+  color: rgb(5, 155, 255);
+  margin: 0 30px;
+  list-style: none;
+  list-style-type: none;
+}
