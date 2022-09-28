@@ -2,6 +2,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Header from "../components/header/Header.jsx";
 import Introduction from "../components/Introduction/Introduction";
+import About from "../components/About/About";
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
       <Header />
       <Introduction />
+      <About />
     </div>
   );
 }

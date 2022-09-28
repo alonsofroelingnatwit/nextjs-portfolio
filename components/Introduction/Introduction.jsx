@@ -6,8 +6,10 @@ const Introduction = () => {
       <h1 className={styles.introduction_title}>Hello everyone, I am</h1>
       <h1 className={styles.introduction_name}>Nicolas Alonso Froeling</h1>
       <p className={styles.introduction_text}>
-        I'm a web developer with a passion for creating beautiful and functional
-        websites.
+        I am a computer science student at Wentworth Institute of Technology. I
+        am currently looking for a full-time position as a software engineer.
+        lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
       </p>
     </div>
   );
