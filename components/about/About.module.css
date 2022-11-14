@@ -1,4 +1,4 @@
-.about_about {
+.about {
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -8,18 +8,20 @@
   background-color: rgb(40, 40, 40);
   padding: 0 20px;
   margin-left: 5%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .about_title {
   font-weight: 700;
   font-size: 40px;
-  color: #ffffff;
+  color: rgb(5, 155, 255);
   margin-bottom: 0%;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .about_text {
-  font-size: 20px;
+  width: 60vw;
+  font-size: 24px;
   font-weight: 400;
   color: #ffffff;
+  margin-bottom: 0px;
 }

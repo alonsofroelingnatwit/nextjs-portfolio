@@ -10,6 +10,11 @@
   background-color: #00000071;
 }
 
+.header_logo {
+  left: 0px;
+  margin-right: 10px;
+}
+
 .header_list {
   color: rgb(5, 155, 255);
   display: flex;
