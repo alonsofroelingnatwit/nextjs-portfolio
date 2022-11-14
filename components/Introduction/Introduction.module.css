@@ -4,22 +4,14 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  width: 100%;
-  background-color: rgb(40, 40, 40);
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 100vw;
+  font-family: "Montserrat", sans-serif;
 }
 
-.introduction_title {
-  font-weight: 700;
-  color: #ffffff;
-  margin-bottom: 0%;
-  margin-left: 5%;
-  margin-right: 5%;
-}
 .introduction_name {
-  font-weight: 700;
+  font-weight: lighter;
   font-size: 70px;
-  color: rgb(5, 155, 255);
+  color: rgb(255, 255, 255);
   text-align: center;
   margin-top: 0%;
   margin-left: 5%;
@@ -29,8 +21,8 @@
 
 .introduction_text {
   font-size: 20px;
-  font-weight: 400;
-  color: #ffffff;
+  font-weight: lighter;
+  color: #004ec3;
   margin-top: 0%;
   margin-left: 10%;
   margin-right: 10%;
@@ -39,8 +31,8 @@
 
 .introduction_under_text {
   font-size: 20px;
-  font-weight: 400;
-  color: rgb(5, 155, 255);
+  font-weight: lighter;
+  color: #004ec3;
   margin-top: 0%;
   margin-left: 10%;
   margin-right: 10%;
