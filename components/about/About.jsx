@@ -16,6 +16,9 @@ const About = () => {
         I love sports! I am an athlete for the Wentworth golf team, I am the
         upcoming captain. I always try to be a leader and show by example.
       </p>
+      {/* <p className={styles.about_text}>
+        <li className={styles.about_bulletpoints}></li>
+      </p> */}
     </div>
   );
 };
