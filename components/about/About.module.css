@@ -7,7 +7,6 @@
   width: 100%;
   padding: 0 20px;
   margin-left: 15%;
-  font-family: "Montserrat", sans-serif;
 }
 
 .about_title {
@@ -25,16 +24,36 @@
   margin-bottom: 0px;
 }
 
-.about_bulletpoints {
-  /* Polygon 3 */
+.about_list {
+  padding: 0;
+  width: 60vw;
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  grid-template-rows: repeat(2, 20%);
+  grid-column-gap: 16px;
+  grid-row-gap: 32px;
+}
 
-  box-sizing: border-box;
+.about_bulletpoints_text {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: lighter;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  height: 100%;
+  width: 100%;
+  margin-top: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-bottom: 0%;
+  gap: 8px;
+}
 
-  position: absolute;
-  width: 23px;
-  height: 23px;
-
-  border: 1px solid #0046a6;
-  box-shadow: 0px 4px 4px #000000;
-  transform: rotate(90deg);
+.about_bulletpoints_text_title {
+  margin-top: 48px;
+  font-size: 24px;
+  font-weight: lighter;
+  color: #ffffff;
 }

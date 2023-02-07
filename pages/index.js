@@ -3,6 +3,8 @@ import styles from "../styles/Home.module.css";
 import Header from "../components/header/Header.jsx";
 import Introduction from "../components/Introduction/Introduction";
 import About from "../components/About/About";
+import Projects from "../components/Projects/Projects";
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -13,6 +15,7 @@ export default function Home() {
       <Header />
       <Introduction />
       <About />
+      <Projects />
     </div>
   );
 }
