@@ -1,6 +1,6 @@
 import styles from "./About.module.css";
 import Image from "next/image";
-import triangle from "../../public/triangle.svg";
+import triangle from "../../public/Triangle.svg";
 
 const About = () => {
   return (
