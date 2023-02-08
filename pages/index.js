@@ -1,9 +1,10 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Header from "../components/header/Header.jsx";
-import Introduction from "../components/Introduction/Introduction";
-import About from "../components/About/About";
-import Projects from "../components/Projects/Projects";
+import Introduction from "../components/Introduction/Introduction.jsx";
+import About from "../components/about/About.jsx";
+import Projects from "../components/projects/Projects.jsx";
+import Contact from "../components/contact/Contact.jsx";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Introduction />
       <About />
       <Projects />
+      <Contact />
     </div>
   );
 }
