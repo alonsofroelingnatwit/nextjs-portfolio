@@ -24,7 +24,7 @@ const Projects = () => {
           <h3 className={styles.projects_cards_title}>ETG Mobile App</h3>
           <Image src={etg} alt="" className={styles.projects_cards_image} />
           <p className={styles.projects_cards_text}>
-            Currentrly developing a mobile app for an indoor golf facility using
+            Currently developing a mobile app for an indoor golf facility using
             the framework Flutter. The app will be used to book virtual tee
             times, as well as having a weekly leaderboard and tournaments.
           </p>

@@ -12,7 +12,7 @@ const About = () => {
         always looking for new opportunities to learn and grow.
       </p>
       <p className={styles.about_text}>
-        I am fluent in Spanish, English, Dutch and I speak basic German.
+        I am fluent in Spanish, English, Dutch and intermediate in German.
       </p>
       <p className={styles.about_text}>
         I love sports! I am an athlete for the Wentworth golf team, I am the
