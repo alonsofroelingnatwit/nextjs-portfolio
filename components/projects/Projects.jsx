@@ -25,6 +25,7 @@ const Projects = () => {
             Software-To-Feel-United
           </h3>
           <Image src={stfu} alt="" className={styles.projects_cards_image} />
+
           {isOpenSTFU && (
             <motion.p className={styles.projects_cards_text}>
               Developed a group chat web application using PHP and Laravel for
