@@ -78,6 +78,7 @@
   padding: 8px;
   background-color: dimgray;
   resize: none;
+  font-family: "Montserrat", sans-serif;
 }
 
 .contact_form_group_textarea:focus {
@@ -86,6 +87,7 @@
 
 .contact_form_group_textarea::placeholder {
   color: white;
+  font-family: "Montserrat", sans-serif;
 }
 
 .contact_form_group_button {

@@ -11,6 +11,11 @@ const Projects = () => {
   const [isOpenETG, setIsOpenETG] = useState(false);
   const [isOpenPM, setIsOpenPM] = useState(false);
 
+  function projectsPopUp(input = "stfu" || "etg" || "pm" || "none") {
+    if (input === "stfu") {
+    }
+  }
+
   return (
     <div className={styles.projects}>
       <h1 className={styles.projects_title}>Projects</h1>
@@ -20,6 +25,7 @@ const Projects = () => {
             setIsOpenSTFU(!isOpenSTFU, setIsOpenETG(false), setIsOpenPM(false))
           }
           className={styles.projects_cards}
+          id="stfu"
         >
           <h3 className={styles.projects_cards_title}>
             Software-To-Feel-United
@@ -70,6 +76,21 @@ const Projects = () => {
             </motion.p>
           )}
         </motion.div>
+        <motion.div className={styles.projects_cards_popup}>
+          <motion.p className={styles.projects_cards_popup_text}>
+            {isOpenETG && "ETG Mobile App"}
+            {isOpenPM && "Password Manager"}
+          </motion.p>
+        </motion.div>
+        {isOpenSTFU && (
+          <motion.div className={styles.projects_cards_popup}>
+            <motion.p className={styles.projects_cards_popup_text}>
+              developed a group chat web application using PHP and Laravel for
+              the backend and React for the frontend. The app allows users to
+              create groups and chat with other users in real time.
+            </motion.p>
+          </motion.div>
+        )}
       </div>
     </div>
   );
